@@ -180,6 +180,15 @@ body{
     margin-right: 45%;
     width: 20%;
   }
+  .logos a{
+  
+      text-decoration: none;
+      color: white;
+      font-size: 1.2rem;
+      margin: auto;
+      padding: 0 5px 0 0px;
+    
+  }
   .fwall{
     background-image: url("images/Mountain.jpg");
     background-size: cover;
