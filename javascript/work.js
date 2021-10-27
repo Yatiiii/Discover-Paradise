@@ -9,8 +9,11 @@ $(document).ready(function(){
         $('body').css('background-color', "white");
         $('.mirado').css('color', "white");
         $('.card-body').css('background-color', "white");
+        $('h5').css('color', "black");
         $('h3').css('color', "black");
         $('p').css('color', "black");
+        $('.card-deck a').css('color', "gray");
+        $('.footer p').css('color', "white");
       }
       else{
         $('.header').css('background-image', "url('CSS/images/night.jpg')");
