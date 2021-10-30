@@ -6,6 +6,7 @@ $(document).ready(function(){
       if($(this).prop('checked')){
         $('.header').css('background-image', "url('CSS/images/daya.jpg')");
         $('.fwall').css('background-image', "url('CSS/images/dayb.jpg')");
+        $('.footer-brand').style('background-image', "url('CSS/images/logo and text dark.png')");
         $('body').css('background-color', "white");
         $('.mirado').css('color', "white");
         $('.card-body').css('background-color', "white");
@@ -13,11 +14,13 @@ $(document).ready(function(){
         $('h3').css('color', "black");
         $('p').css('color', "black");
         $('.card-deck a').css('color', "gray");
-        $('.footer p').css('color', "white");
+        $('.footer p').css('color', "black");
+        $(".footer").css({"top": "900px"});
       }
       else{
         $('.header').css('background-image', "url('CSS/images/night.jpg')");
         $('.fwall').css('background-image', "url('CSS/images/Mountain.jpg')");
+        $('.foot').style('background-image', "url('CSS/images/logo and text.png')");
         $('body').css('background-color', "black");
         $('.card-body').css('background-color', "black");
         $('h3').css('color', "white");

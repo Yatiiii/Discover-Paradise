@@ -14,7 +14,17 @@ form{
     text-align: center;
     width: 60%;
   }
-
+  .options {
+    width: 37%;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .nav-item{
+    padding: 0 30px;
+  }
+  .navbar-brand{
+    width: 15%;
+  }
 select{
   display: block;
       width: 100%;
@@ -68,4 +78,4 @@ select{
   html{
     scroll-behavior: smooth;
   }
-  
+ 
