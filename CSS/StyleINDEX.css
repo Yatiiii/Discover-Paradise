@@ -262,8 +262,11 @@ h6{
    .logo {
     background-image: url("images/logo and text.png");
     background-repeat: no-repeat;
-      background-position: 52% 0%;
-      background-size: 97% 37%;
+      background-position: 8% 36%;
+      background-size: 65% 20%;
+    }
+    
+    
     }
     .row{
     margin-left: 182px;
