@@ -259,6 +259,15 @@ h6{
       margin-right: auto;
       justify-content: center;
     }
+   .logo {
+    background-image: url("images/logo and text.png");
+    background-repeat: no-repeat;
+      background-position: 52% 0%;
+      background-size: 97% 37%;
+    }
+    .row{
+    margin-left: 182px;
+    }
     p{
       width: 200px;
       font-size: 0.7rem;
