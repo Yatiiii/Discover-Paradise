@@ -173,12 +173,18 @@ body{
   .footer{
     margin: auto;
     position: relative;
-    top: 600px;
+    top: 613px;
   }
   .logos{
     margin-left: 45%;
     margin-right: 45%;
     width: 20%;
+  }
+  .logo{
+    background-image: url("images/logo and text.png");
+    background-repeat: no-repeat;
+    background-position: 0% 24%;
+    background-size: 30% 50%;
   }
   .logos a{
   
@@ -196,12 +202,6 @@ body{
     height: 700px;
   
   }
-
-.footer img{
-  margin-top: 55px;
-  width: 120%;
-  margin-left: -67px;
-}
 h6{
   margin-left: 45px;
 }
@@ -236,9 +236,7 @@ h6{
     color: #a7aeb8;
     font-size: 14px;
 }
-/* .footer-brand{
-  background-image: url(images/logo\ and\ text.png);
-} */
+
 .cop{
     color: #a7aeb8;
 }
@@ -251,13 +249,7 @@ h6{
 .bot{
     bottom: 0;
 }
-.footer_logo{ 
-   height: 74px;
-  float: left;
-  margin-top: 90%;
-  margin-left: -50%;
-   color: #fff;
-} 
+
 
   /* FOR MOBILES  */
   @media only screen and (max-width: 600px) {
